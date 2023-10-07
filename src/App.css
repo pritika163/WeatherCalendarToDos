@@ -1,0 +1,162 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(165, 54, 54);
+}
+body{
+  background-color: #49d7d9;
+  color: black;
+  padding: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  
+  }
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(165, 54, 54);
+}
+body{
+  background-color: #54948e;
+  color: black;
+  padding: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  }
+
+.App-link {
+  color: #318ba4;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.calender{
+  max-width: 320px;
+  float: left;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.wrap{
+  margin: 1px auto;
+  width: 70%;
+}
+
+.txtbx1{
+  display: flex;
+  font-size: 20px;
+  align-items: left;
+  
+  font-family:Georgia;
+}
+
+
+
+.wrap2{
+  margin: auto 10px;
+  width: 70%;
+}
+
+
+.items{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.todo{
+  max-width: 320px;
+  float: right;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+.weatherimg{
+  max-width: 320px;
+  float: left;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+
+.txtbx2{
+  font-size: 20px;
+  float: right;
+  font-family:Georgia ;
+  align-items: center;
+}
+
+.txtbx3{
+  font-size: 20px;
+  
+  font-family:Georgia ;
+}
+
+.wrap3{
+  margin: 70px auto;
+  width: 70%;
+}
